@@ -9,6 +9,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Rebus\Rebus.Tests.Contracts\Rebus.Tests.Contracts.csproj" />
     <ProjectReference Include="..\Rebus.Async\Rebus.Async.csproj" />
     <PackageReference Include="microsoft.net.test.sdk" Version="16.8.3" />
     <PackageReference Include="nunit" Version="3.13.1" />
@@ -16,7 +17,5 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="rebus" Version="6.5.0" />
-    <PackageReference Include="rebus.tests.contracts" Version="6.4.0" />
   </ItemGroup>
 </Project>

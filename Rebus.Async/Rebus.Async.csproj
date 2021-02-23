@@ -38,6 +38,6 @@
     <DocumentationFile>bin\Release\Rebus.Async.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="rebus" Version="6.5.0" />
+    <ProjectReference Include="..\..\Rebus\Rebus\Rebus.csproj" />
   </ItemGroup>
 </Project>
